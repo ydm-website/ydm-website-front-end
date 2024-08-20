@@ -1,0 +1,30 @@
+{
+  "name": "fe-profile",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@techassi/vue-youtube-iframe": "^1.0.6",
+    "axios": "^1.7.3",
+    "date-fns": "^3.6.0",
+    "pinia": "^2.1.7",
+    "primeicons": "^7.0.0",
+    "vue": "^3.4.29",
+    "vue-router": "^4.3.3",
+    "vue-toast-notification": "^3.1.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.14",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "autoprefixer": "^10.4.20",
+    "daisyui": "^4.12.10",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.9",
+    "vite": "^5.3.1"
+  }
+}
